@@ -18,8 +18,11 @@
               <h2>Ames Iowa</h2>
           </section>
             <p>I wanted to explore some different Machine Learning models. I chose to investigate the Ames Iowa housing dataset as there appeared to be a lot to dig into. The target with this dataset is to create a model for predicting house prices. There were a whole range of independent variables in the dataset to explore, some which you would expect  to have a big impact on the price for example square footage of the living area, others less so. Perhaps the material the drive is made from.  </p>
-            <p> My forst job was to inspect the data. I looked at what kinds of data were included in the set and if there were any particulars that might affect the model. I was concerned that using too many abnormal sales would skew the model, there were a few notable sales </p>
-            <br>
+            <p> My forst job was to inspect the data. I looked at what kinds of data were included in the set and if there were any particulars that might affect the model. I was concerned that using too many abnormal sales would skew the model, there were a few notable sales which might make an unpredictable impact on the sale price, as there are so few of these it might make sense to remove these from the set and acknowledge that the model only works for a 'normal' sale.</p>
+            <p>It is also worth looking at the spread of the numerical data to check that there are no anololies. I notices that although approximately normal there were a few exception, for example the houses with no pool had a score of zero so this looks out of place on the graph however if the pool turns out to have an impact then this would be appropriate. </p>
+            <p>It is also worth looking at which variables are highly correlated with house price as these would be the best variables to create a model with. I calculated the correlation for each of the numeric variables. here are the variables with the highest correlations. </p>
+            <p>As many of the factors were ordinal I had to decide what to do with these values.</p>
+              <br>
             <!-- <table>
                 <tr>
                   <th>My Reading List:</th>
